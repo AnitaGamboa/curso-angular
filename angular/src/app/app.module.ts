@@ -7,6 +7,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { IndexComponent } from './pages/index/index.component';
 import { HistoryComponent } from './components/history/history.component';
+import { LoginComponent } from './pages/login/login.component';
+import { MenuLoginComponent } from './components/menu-login/menu-login.component';
+//forms
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { HistoryComponent } from './components/history/history.component';
     MenuComponent,
     CarouselComponent,
     IndexComponent,
-    HistoryComponent,    
+    HistoryComponent,
+    LoginComponent,
+    MenuLoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
