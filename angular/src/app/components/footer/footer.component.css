@@ -1,0 +1,64 @@
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #007b5e !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.logo-face {
+    max-width: 20px;
+}
+
+.logo-insta {
+    max-width: 40px;
+}
+
+.logo-twitter {
+    max-width: 40px;
+}
+
+.container {
+    background-color: #007b5e;
+    border-color: none;
+    text-align: center;
+    bottom: 0px;
+}
+
+.col {
+    background-color: #007b5e;
+}
+
+#footer col {
+    background-color: #007b5e;
+}
+
+.redes {
+    color: white;
+}
+
+.logo-linkedin {
+    max-width: 40px;
+}

@@ -9,8 +9,12 @@ import { IndexComponent } from './pages/index/index.component';
 import { HistoryComponent } from './components/history/history.component';
 import { LoginComponent } from './pages/login/login.component';
 import { MenuLoginComponent } from './components/menu-login/menu-login.component';
+
 //forms
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BiografiasComponent } from './components/biografias/biografias.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +24,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     IndexComponent,
     HistoryComponent,
     LoginComponent,
-    MenuLoginComponent
-  ],
+    MenuLoginComponent,
+    BiografiasComponent,
+    ContactoComponent,
+    FooterComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
